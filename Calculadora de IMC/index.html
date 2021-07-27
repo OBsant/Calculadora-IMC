@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles/styles.css" rel="stylesheet">
+  </head>
+  <body background="img/img.jpg">
+    <div class = "container">
+      <center><h1>Calcule seu IMC</h1></center>
+      <form>
+        <div class = "container-calculadora-peso">
+          <center><p>Digite seu peso</p>
+            <input id = "peso" class = "input-number" type = "number"/>
+            <span>kg</span>
+          </center>
+        </div>
+        <div class = "container-calculadora-altura">
+          <center><p>Digite sua altura</p>
+            <input id = "altura" class = "input-number" type = "number"/>
+            <span>cm</span>
+          </center>      
+        </div>
+        <center>
+        <input id = "btnCalcular" class = "botao-calcular" type = "button" value = "Calcular"/>
+          </center>
+      </form>
+      <div id = "resultado"></div>
+      <div id = "msg"></div>
+    </div>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
+
